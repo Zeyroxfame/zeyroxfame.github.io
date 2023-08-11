@@ -26,6 +26,17 @@
 	  <li>The Civilization games.</li>
 	  <li>Super Mario Galaxy. The best 3d mario game.</li>
 	  <!--Those lists might need to get removed and placed in another page so it looks better? Not sure, we will see.-->
-	</ul> 
+	</ul>
+    <!--Insert social media here later, such as discord server and shit-->
+    <p>My socials:</p>
+    <ul>
+      <li><a href="https://steamcommunity.com/id/Zeyroxfame/" target="_blank">Steam</a>
+	  <li>Discord: zeyroxfame</li>
+	</ul>
+    <p><strong>Links to the other parts of the site:</strong></p>
+	<ul>
+	  <li><a href="maze/maze.html">Random visual sites</a></li>
+	  
+	
   </body>
 </html>
