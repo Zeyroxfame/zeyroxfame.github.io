@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Main page</title>
+    <title>Zeyroxfame</title>
+	<icon href="ZIcon.ico">
+	<link rel="stylesheet" href="style.css">
   </head>
   <body>
 	<h1>Welcome to my site!</h1>
@@ -35,7 +37,10 @@
 	</ul>
     <p><strong>Links to the other parts of the site:</strong></p>
 	<ul>
-	  <li><a href="maze/maze.html">Random visual sites</a></li>
+	  <li><a href="maze/maze.html">Random visual sites experiment</a></li>
+	  <li><a href="">Game reviews, suggestions, ect.</a></li>
+	  <li><a href="">Learn more about me!</a></li>
+	</ul>
 	  
 	
   </body>
