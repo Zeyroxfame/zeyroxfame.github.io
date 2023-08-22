@@ -35,13 +35,14 @@
       <li><a href="https://steamcommunity.com/id/Zeyroxfame/" target="_blank">Steam</a>
 	  <li>Discord: zeyroxfame</li>
 	</ul>
-    <p><strong>Links to the other parts of the site:</strong></p>
+	  
+	<footer><center>
 	<ul>
 	  <li><a href="maze/maze.html">Random visual sites experiment</a></li>
 	  <li><a href="">Game reviews, suggestions, ect.</a></li>
 	  <li><a href="">Learn more about me!</a></li>
+	  <li><a href="map iframe/map">Openstreetmap test. More like this to come.</a></li>
 	</ul>
-	  
-	<footer><center>
+	Made by Zeyroxfame. True domain <strong>NOT</strong> coming soon.</center></footer>
   </body>
 </html>
