@@ -19,14 +19,13 @@
 	  <li>Strategy games</li>
 	</ul>
 	<p>Now here are some games I like:</p>
-	<!--Include the game links, with a drop down list or whatever to redirect to the right page, like free or paid, what game, what platform. This will require JavaScript-->
 	<ul>
 	  <li>The two Ori games</li>
-	  <li>Pizza tower</li> <!--Try making a small Peppino image here-->
-	  <li>The Epic Battle Fantasy series</li>
-	  <li>The Bloons TD series, Including the Bloons series and anything related to it.</li>
-	  <li>The Civilization games.</li>
-	  <li>Super Mario Galaxy. The best 3d mario game.</li>
+	  <li><a href="https://store.steampowered.com/app/2231450/Pizza_Tower/" target="_blank" title="Steam Pizza Tower page">Pizza tower</a></li> <!--Try making a small Peppino image here-->
+	  <li><a href="EBF.html" target="_blank" title="">The Epic Battle Fantasy series</a></li>
+	  <li><a href="" target="_blank" title="">The Bloons TD series, Including the Bloons series and anything related to it.</a></li>
+	  <li><a href="" target="_blank" title="">The Civilization games.</a></li>
+	  <li><a href="https://www.amazon.com/s?k=mario+galaxy" target="_blank" title="Amazon place to buy Mario Galaxy">Super Mario Galaxy. The best 3d mario game.</a></li>
 	  <!--Those lists might need to get removed and placed in another page so it looks better? Not sure, we will see.-->
 	</ul>
     <!--Insert social media here later, such as discord server and shit-->
@@ -35,13 +34,14 @@
       <li><a href="https://steamcommunity.com/id/Zeyroxfame/" target="_blank">Steam</a>
 	  <li>Discord: zeyroxfame</li>
 	</ul>
+	
 	  
 	<footer><center>
 	<ul>
 	  <li><a href="maze/maze.html">Random visual sites experiment</a></li>
 	  <li><a href="">Game reviews, suggestions, ect.</a></li>
 	  <li><a href="">Learn more about me!</a></li>
-	  <li><a href="map iframe/map">Openstreetmap test. More like this to come.</a></li>
+	  <li><a href="map iframe/map.html">Openstreetmap test. More like this to come.</a></li>
 	</ul>
 	Made by Zeyroxfame. True domain <strong>NOT</strong> coming soon.</center></footer>
   </body>

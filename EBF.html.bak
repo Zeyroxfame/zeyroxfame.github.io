@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<link rel="icon" type="image/x-icon" href="mainicon.ico">
+    <title></title>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="script.js"></script>
+  </head>
+  <body>
+    <p>%20 Select the game:</p>
+	<ul>
+	  <li><a href="https://www.newgrounds.com/portal/view/493714" title="Play now on Newgrounds!" target="_blank">Epic Battle Fantasy 1</a></li>
+	  <li><a href="https://www.newgrounds.com/portal/view/508777" title="Play now on Newgrounds!" target="_blank">Epic Battle Fantasy 2</a></li>
+	  <li><a href="https://www.newgrounds.com/portal/view/508777" title="Play now on Newgrounds!" target="_blank">Epic Battle Fantasy 3</a></li>
+	  <li><a href="https://www.newgrounds.com/portal/view/612815" title="Play now on Newgrounds!" target="_blank">Epic Battle Fantasy 4</a></li>
+	  <li><a href="https://www.newgrounds.com/portal/view/746618" title="Play now on Newgrounds!" target="_blank">Epic Battle Fantasy 5</a></li>
+	  <li><a href="https://www.newgrounds.com/portal/view/566417" title="Play now on Newgrounds!" target="_blank">Bullet Heaven 1</a></li>
+	  <li><a href="https://www.newgrounds.com/portal/view/666077" title="Play now on Newgrounds!" target="_blank">Bullet Heaven 2</a></li>
+	  <li><a href="https://www.newgrounds.com/portal/view/782181" title="Play now on Newgrounds!" target="_blank">Bullet Heaven 3 (prototype)</a></li>
+	  <li><a href="https://www.newgrounds.com/portal/view/586861" title="Play now on Newgrounds!" target="_blank">Adventure Story</a></li>
+	  <li><a href="https://www.newgrounds.com/portal/view/458245" title="Play now on Newgrounds!" target="_blank">Brawl Royale</a></li>
+	  <p><br><br>Might be more games and also some others on different platforms, like on their <a href="https://kupogames.com" target="_blank" title="Official Kupo Games website">official website</a> or on Steam.</p>
+	  <br><br><br>
+	  <p>Their Steam versions of these games contain additional content, so make sure to check it out!</p> 
+  </body>
+</html>
