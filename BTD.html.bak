@@ -10,8 +10,10 @@
   </head>
   <body>
    <div class="centered">
-    <p>Select the game:<br>Tower defense games:</p>
-    <ul class="nobullet">
+    <h2>Select the game:</h2>
+	
+	<p>Tower defense games:</p>
+    <ul class="nopadding">
       <li><a href="https://www.newgrounds.com/portal/view/395153" target="_blank" title="Play now on Newgrounds!">Bloons TD</a></li>
 	  <li><a href="https://www.newgrounds.com/portal/view/405975" target="_blank" title="Play now on Newgrounds!">Bloons TD 2</a></li>
 	  <li><a href="https://www.newgrounds.com/portal/view/463445" target="_blank" title="Play now on Newgrounds!">Bloons TD 3</a></li>
@@ -23,7 +25,7 @@
     </ul>
 	
     <p>Dart throwing games (the original Bloon games):</p>
-    <ul class="nobullet">
+    <ul class="nopadding">
       <li><a href="https://www.newgrounds.com/portal/view/370620" target="_blank" title="Play now on Newgrounds!">Bloons</a></li>
 	  <li><a href="https://www.newgrounds.com/portal/view/374372" target="_blank" title="Play now on Newgrounds!">More Bloons</a></li>
 	  <li><a href="https://www.newgrounds.com/portal/view/386482" target="_blank" title="Play now on Newgrounds!">Bloons Player Pack 1</a></li>
@@ -40,7 +42,7 @@
     </ul>
 	
     <p>Misc</p>
-    <ul class="nobullet">
+    <ul class="nopadding">
       <li><a href="https://www.newgrounds.com/portal/view/470052" target="_blank" title="Play now on Newgrounds!">Hot Air Bloon</a></li>
 	  <li><a href="https://www.newgrounds.com/portal/view/528464" target="_blank" title="Play now on Newgrounds!">Bloons Super Monkey</a></li>
 	  <li><a href="https://store.steampowered.com/app/979060/Bloons_Adventure_Time_TD/" target="_blank" title="Get now on Steam!">Bloons Adventure Time TD</a></li>
