@@ -8,8 +8,8 @@
 	<link rel="stylesheet" href="style.css"/>
 	<script src="script.js"></script>
   </head>
-  <body>
-    <p>%20 Select the game:</p>
+  <body class="centered">
+    <p>Select the game:</p>
 	<ul>
 	  <li><a href="https://www.newgrounds.com/portal/view/493714" title="Play now on Newgrounds!" target="_blank">Epic Battle Fantasy 1</a></li>
 	  <li><a href="https://www.newgrounds.com/portal/view/508777" title="Play now on Newgrounds!" target="_blank">Epic Battle Fantasy 2</a></li>

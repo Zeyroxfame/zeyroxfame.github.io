@@ -7,16 +7,19 @@ p, h1, h2, h3, h4, h5, h6, ul, li, ol, footer {
 	
 }
 
-footer ul {
+center ul {
 	list-style: none;
 }
 
 a {
-	color: #6E1BAD
-;
+	color: #6E1BAD;
 }
 
 a:hover {
 	text-decoration: none;
+}
+
+.centered {
+	text-align: center;
 }
 	
