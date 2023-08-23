@@ -23,6 +23,6 @@ a:hover {
 	text-align: center;
 }
 
-ul, ol {
+.nopadding {
 padding: 0;
 }	

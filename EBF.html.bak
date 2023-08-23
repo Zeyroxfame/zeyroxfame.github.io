@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="style.css"/>
 	<script src="script.js"></script>
   </head>
-  <body>
+  <body class="centered">
     <p>Select the game:</p>
 	<ul>
 	  <li><a href="https://www.newgrounds.com/portal/view/493714" title="Play now on Newgrounds!" target="_blank">Epic Battle Fantasy 1</a></li>
@@ -23,6 +23,14 @@
 	  <li><a href="https://www.newgrounds.com/portal/view/458245" title="Play now on Newgrounds!" target="_blank">Brawl Royale</a></li>
 	  <p><br><br>Might be more games and also some others on different platforms, like on their <a href="https://kupogames.com" target="_blank" title="Official Kupo Games website">official website</a> or on Steam.</p>
 	  <br><br><br>
-	  <p>Their Steam versions of these games contain additional content, so make sure to check it out!</p> 
+	  <p>Their Steam versions of these games contain additional content, so make sure to check it out!</p>
+      <br><br><footer><center>
+	<ul class="nopadding">
+	  <li><a href="maze/maze.html">Random visual sites experiment</a></li>
+	  <li><a href="">Game reviews, suggestions, ect.</a></li>
+	  <li><a href="">Learn more about me!</a></li>
+	  <li><a href="mapIframe/map.html">Openstreetmap test. More like this to come...</a>?</li>
+	</ul>
+	Made by Zeyroxfame. True domain <strong>NOT</strong> coming soon.</center></footer>	  
   </body>
 </html>
