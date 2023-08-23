@@ -22,4 +22,7 @@ a:hover {
 .centered {
 	text-align: center;
 }
-	
+
+.nopadding {
+padding: 0;
+}	

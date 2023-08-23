@@ -37,11 +37,11 @@
 	
 	  
 	<footer><center>
-	<ul>
+	<ul class="nopadding">
 	  <li><a href="maze/maze.html">Random visual sites experiment</a></li>
 	  <li><a href="">Game reviews, suggestions, ect.</a></li>
 	  <li><a href="">Learn more about me!</a></li>
-	  <li><a href="map iframe/map.html">Openstreetmap test. More like this to come.</a></li>
+	  <li><a href="mapIframe/map.html">Openstreetmap test. More like this to come.</a></li>
 	</ul>
 	Made by Zeyroxfame. True domain <strong>NOT</strong> coming soon.</center></footer>
   </body>
