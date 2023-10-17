@@ -1,0 +1,7 @@
+body{
+background-color: black;
+}
+p, li, ul, ol{
+font-size: 200%;
+color: white;
+}
