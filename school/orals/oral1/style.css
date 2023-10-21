@@ -1,0 +1,10 @@
+body{
+background-color: black;
+}
+p, li, ul, ol{
+font-size: 200%;
+color: white;
+}
+img{
+vertical-align: middle;
+}
