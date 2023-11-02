@@ -1,0 +1,7 @@
+function alert1() {
+	alert("Hello. I want to play a game. Click on the next button to add one to the value. once the value is 100, talk to me again.")
+}
+function add1() {
+	let money;
+}
+	
