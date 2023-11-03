@@ -1,7 +1,7 @@
 body{
 background-color: white;
 }
-p, li, ul, ol, h1, h2, h3, h4, h5, h6, td{
+button, a, p, li, ul, ol, h1, h2, h3, h4, h5, h6, td{
 font-size: 200%;
 }
 img{
@@ -16,3 +16,7 @@ color: #19820B;
 td, th, tr, table{
 border:1px solid black;
 border-collapse: collapse;}
+
+button {
+	background-color: red;
+	}
