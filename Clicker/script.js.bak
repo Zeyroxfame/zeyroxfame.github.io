@@ -5,8 +5,9 @@ function alert1() {
 let counter = 0;
 
 function add1() {
-	let counter ++;
+	counter++;
 	alert(counter);
-	
+	const visual = `You clicked the button ${counter} times.`
+	document.getElementById("visual").innerHTML = visual
 }
 	
