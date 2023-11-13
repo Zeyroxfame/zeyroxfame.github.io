@@ -1,7 +1,12 @@
 function alert1() {
-	alert("Hello. I want to play a game. Click on the next button to add one to the value. once the value is 100, talk to me again.")
+	alert("This is aa in the making clicker, simply for a fun project to do.")
 }
+
+let counter = 0;
+
 function add1() {
-	let money;
+	let counter ++;
+	alert(counter);
+	
 }
 	

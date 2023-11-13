@@ -1,7 +1,12 @@
 function alert1() {
-	alert("Hello. I want to play a game. But you will have to come again because this is still in the making HEHEHEHA")
+	alert("This is aa in the making clicker, simply for a fun project to do.")
 }
+
+let counter = 0;
+
 function add1() {
-	let money;
+	counter++;
+	alert(counter);
+	
 }
 	
