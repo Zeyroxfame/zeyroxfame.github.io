@@ -4,11 +4,11 @@ function alert1() {
 
 let counter = 0;
 let money = 0;
-let multiplier = 1;
+let multiplier = 2;
 
 function add1() {
 	counter++;
- money++;
+ money + 1 * multiplier;
 	const visual = `You clicked the button ${counter} times.`;
  const moneyVisual = `${money}$`;
 	document.getElementById("visual").innerHTML = visual;
