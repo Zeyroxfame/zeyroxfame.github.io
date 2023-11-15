@@ -10,7 +10,7 @@ function add1() {
 	counter++;
  money++;
 	const visual = `You clicked the button ${counter} times.`;
- const moneyVisual = `${money}`;
+ const moneyVisual = `${money} dollars`;
 	document.getElementById("visual").innerHTML = visual;
  document.getElementById("money").innerHTML = moneyVisual;
 }
