@@ -8,7 +8,8 @@ let multiplier = 2;
 
 function add1() {
 	counter++;
- money = 1 * multiplier;
+ newMoney = money + 1 * multiplier;
+ money = newMoney;
 	const visual = `You clicked the button ${counter} times.`;
  const moneyVisual = `${money}$`;
 	document.getElementById("visual").innerHTML = visual;
