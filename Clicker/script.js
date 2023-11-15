@@ -9,9 +9,9 @@ let multiplier = 1;
 function add1() {
 	counter++;
  money + 1;
-	const visual = `You clicked the button ${counter} times.`
- const moneyVisual = `${money}$`
-	document.getElementById("visual").innerHTML = visual
- document.getElementById("money").innerHTML = moneyVisual
+	const visual = `You clicked the button ${counter} times.`;
+ const moneyVisual = `${money}$`;
+	document.getElementById("visual").innerHTML = visual;
+ document.getElementById("money").innerHTML = moneyVisual;
 }
 	
