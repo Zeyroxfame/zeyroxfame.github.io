@@ -9,7 +9,6 @@
 	<script src="script.js" defer></script>
   </head>
   <body>
-    <button onclick="alert1()">click me</button>
 	<button onclick="add1()">+1</button>
 	<br>
 	<p id="visual">You clicked the button 0 times.</p>
@@ -19,6 +18,5 @@
 <p id="multiplier"></p>
 <p>cost: 20$</p>
 <p id="notEnough"></p>
-	<p>Next step into this is to add a currency based on the counter or smt and then using it to multiply the counter</p>
   </body>
 </html>

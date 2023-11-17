@@ -22,6 +22,7 @@ function incrementMultiplier() {
 		money = money - 20;
 		multiplier = multiplier * 1.1;
 		multiplier = Math.round(multiplier * 100) / 100;
+		money = Math.round(money * 100) / 100;
 		const moneyVisual = `${money}\$`;
 		const multiplierVisual = `Multiplier = ${multiplier}`;
 		document.getElementById("multiplier").innerHTML = multiplierVisual;

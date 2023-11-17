@@ -1,7 +1,3 @@
-function alert1() {
-	alert("This is a in the making clicker, simply for a fun project to do.")
-}
-
 let counter = 0;
 let money = 0;
 let multiplier = 1;
@@ -20,7 +16,7 @@ function add1() {
 function incrementMultiplier() {
 	if (money >= 20) {
 		money = money - 20;
-		multiplier = multiplier * 1.1;
+		multiplier = multiplier + 0.1;
 		multiplier = Math.round(multiplier * 100) / 100;
 		money = Math.round(money * 100) / 100;
 		const moneyVisual = `${money}\$`;
