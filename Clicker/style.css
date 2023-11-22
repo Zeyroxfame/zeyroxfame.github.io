@@ -12,3 +12,11 @@ aside {
 aside > p {
   margin: 0.5rem;
 }
+
+.right {
+	justify: center-right;
+	}
+
+.left {
+    justify: center-left;
+    }	

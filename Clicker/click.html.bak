@@ -14,9 +14,11 @@
 	<p id="visual">You clicked the button 0 times.</p>
  <p id="money">0$</p> 
 	<br><br>
-<button onclick="incrementMultiplier()">upgrade</button>
-<p id="multiplier"></p>
-<p>cost: 20$</p>
-<p id="notEnough"></p>
+<div id="upgradesRow"><aside>
+  <button onclick="incrementMultiplier()">upgrade</button>
+  <p id="multiplier"></p>
+  <p>cost: 20$</p>
+  <p id="notEnough"></p>
+</aside></div>
   </body>
 </html>
