@@ -10,7 +10,8 @@
   </head>
   <body>
     <input id="input"></input>
-	<button id="button" onclick="print">output</button>
+	<input id="input2"><input>
+	<button id="button" onclick="print()">output</button>
     <p id="output"></p>
   </body>
 </html>
