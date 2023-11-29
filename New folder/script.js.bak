@@ -1,0 +1,5 @@
+function print() {
+	let input = document.getElementById("input").innerHTML;
+	let output = input;
+	document.getElementById("output").innerHTML = output;
+}
