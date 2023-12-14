@@ -8,21 +8,38 @@
 	<link rel="stylesheet" href="style.css"/>
 	<script src="script.js" defer></script>
   </head>
+  
+  
   <body>
   <div class="main-container">
-  <div class="left-container">
-	<button onclick="add1()">+1</button>
+  <div class="left-container" id="debug"><!--Where the money and the button is--->
+	<button onclick="add1()">Click</button>
 	<br>
 	<p id="visual">You clicked the button 0 times.</p>
  <p id="money">0$</p> 
-	<br><br>
-</div>
-<div class="upgradeRow"><aside>
-  <button onclick="incrementMultiplier()">upgrade</button>
-  <p id="multiplier">Multiplier = 1</p>
-  <p>cost: 20$</p>
-  <p id="notEnough"></p>
-</aside></div>
-</div>
+ <br><br>
+ <button class="debug" onclick="debug()">Debug mode</button>
+ </div>
+ 
+   <div class="upgradeRow"> <!--Side row where upgrades are--->
+     <div class="+mult_0.1">
+      <p>+0.1 to mutliplier</p>
+      <button onclick="incrementMultiplier()">Upgrade</button>
+      <p id="multiplier">Multiplier = 1</p>
+      <p>cost: 20$</p>
+      <p id="notEnough"></p>
+      <br>
+	 </div>
+	 
+	 <div class="click+1">
+	  <p>+1 every click</p>
+	  <p id="base">Base = 1</p>
+	  <button onclick="incrementBase()">Upgrade</button>
+	  <p>cost= 100$</p>
+	  <p id="notEnough"></p>
+	 </div>
+	 
+   </div>
+ </div>
   </body>
 </html>

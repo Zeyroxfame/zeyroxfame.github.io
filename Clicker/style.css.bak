@@ -1,15 +1,7 @@
-aside {
-  float: right;
+.main-container {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  flex: auto 0;
+  justify-content: space-between;
 }
-
-aside > p {
-  margin: 0.5rem;
-}
-
-.right {
-	justify: center-right;
-	}
-
-.left {
-    justify: center-left;
-    }	
