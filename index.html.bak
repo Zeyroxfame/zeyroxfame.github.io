@@ -8,8 +8,10 @@
 	<link rel="stylesheet" href="style.css">
   </head>
   <body>
+  <div class="main-container">
+    <div class="leftSide">
 	<h1>Welcome to my site!</h1>
-	<p>My username is Zeyroxfame. I am a 15 year old Canadian who is really interested into coding and basically anything related to computers, the internet, and how things work.</p>
+	<p>My username is Zeyroxfame (or Skyler). I am a 15 year old Canadian who is really interested into coding and basically anything related to computers, the internet, and more.</p>
 	<p>I enjoy achievement hunting a lot, and obviously I like playing games. My favorite genres are:
 	<ul>
 	  <li>Platformers</li>
@@ -35,8 +37,12 @@
 	  <li>Discord: zeyroxfame</li>
 	  <li>Metagamerscore: <a href="https://metagamerscore.com/profile/24214" target="_blank">Zeyroxfame</a></li> 
 	</ul>
+	</div>
+	<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gDPjnAwKBzI?si=dP0Nr5b3MzpYqF8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
 	
-	  
+	</div>
+	</div>  
 	<footer><center>
 	<ul class="nopadding">
 	  <li><a href="maze/maze.html">Random visual sites experiment</a></li>
@@ -44,6 +50,7 @@
 	  <li><a href="">Learn more about me!</a></li>
 	  <li><a href="mapIframe/map.html">Openstreetmap test. More like this to come...</a>?</li>
 	  <li><a href="taunt/taunt.html">Strike a pose! Not finished at all. First page with Javascript!</a></li>
+	  <li><a href="Clicker/click.html">Clicker using HTML, my first true project. please harrass me on discord</li>
 	</ul>
 	Made by Zeyroxfame. True domain <strong>NOT</strong> coming soon.</center></footer>
   </body>

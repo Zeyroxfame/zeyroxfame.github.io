@@ -12,11 +12,15 @@ p, h1, h2, h3, h4, h5, h6, ul, li, ol, footer {
 }
 
 a {
-	color: #6E1BAD;
+	color: #53d4f5;
 }
 
 a:hover {
 	text-decoration: none;
+}
+
+a:visited {
+	color: #fca9f3;
 }
 
 .centered {
@@ -26,4 +30,12 @@ a:hover {
 .nopadding {
 padding: 0;
 text-decoration: none;
+}
+
+.main-container {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  flex: auto 0;
+  justify-content: space-between;
 }	

@@ -19,10 +19,23 @@ a:hover {
 	text-decoration: none;
 }
 
+a:visited {
+	color: pink;
+}
+
 .centered {
 	text-align: center;
 }
 
 .nopadding {
 padding: 0;
+text-decoration: none;
+}
+
+.main-container {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  flex: auto 0;
+  justify-content: space-between;
 }	
