@@ -3,6 +3,8 @@ let money = 0;
 let multiplier = 1;
 let base = 1;
 
+document.getElementById("+money").addEventListener("click", debugMoney())
+
 function add1() {
 	counter++;
     money = money + base * multiplier;
@@ -13,17 +15,22 @@ function add1() {
  document.getElementById("money").innerHTML = moneyVisual;
 }
 function debug() {
-confirm("Activate debug mode?");
-if (true) {
-	const node = document.createElement("button");
-	const textnode = document.createTextNode("+100000$");
-	node.appendChild(textnode);
-	document.getElementById("debug").appendChild(node);
+if (confirm("Activate debug mode?")) {
+	const moneyButton = document.createElement("button");
+	const moneyText = document.createTextNode("+100000$");
+	moneyButton.id = "+money";
+	moneyButton.appendChild(moneyText);
+	document.getElementById("debug").appendChild(moneyButton);
+   }
+else {
+	alert("Lmao ok wimp")
    }
 }
-//	money = money + 9999999;
-//	const moneyVisual = `${money}\$`;
-//	document.getElementById("money").innerHTML = moneyVisual;	
+function debugMoney() {
+money = money + 9999999;
+const moneyVisual = `${money}\$`;
+document.getElementById("money").innerHTML = moneyVisual;
+}	
 function incrementMultiplier() {
 	if (money >= 20) {
 		money = money - 20;
