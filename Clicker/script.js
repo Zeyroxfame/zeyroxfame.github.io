@@ -3,7 +3,7 @@ let money = 0;
 let multiplier = 1;
 let base = 1;
 
-document.getElementById("+money").addEventListener("click", debugMoney)
+
 
 function add1() {
 	counter++;
@@ -14,23 +14,43 @@ function add1() {
 	document.getElementById("visual").innerHTML = visual;
  document.getElementById("money").innerHTML = moneyVisual;
 }
-function debug() {
+
+
+
+function debug() { //DEBUGGING STUFF
 if (confirm("Activate debug mode?")) {
+	//moneyButton
 	const moneyButton = document.createElement("button");
 	const moneyText = document.createTextNode("+100000$");
 	moneyButton.id = "+money";
 	moneyButton.appendChild(moneyText);
 	document.getElementById("debug").appendChild(moneyButton);
+	document.getElementById("+money").addEventListener("click", debugMoney);
+	
+	//resetButton
+	const resetButton = document.createElement("button");
+	const resetText = document.createTextNode("Reset");
+	resetButtion.id = "reset";
+	resetButton.appendChild(resetText);
+	document.getElementById("debug").appendChild(resetButton);
+	document.getElementById("reset").addEventListener("click", debugReset);
    }
 else {
 	alert("Lmao ok wimp")
    }
 }
+//---------DEBUGGING FUNCTIONS----------
 function debugMoney() {
 money = money + 9999999;
 const moneyVisual = `${money}\$`;
 document.getElementById("money").innerHTML = moneyVisual;
-}	
+}
+function debugReset() {
+money = 0;
+const moneyVisual = `${money}\$`;
+document.getElementById("money").innerHTML = moneyVisual;
+	
+function	
 function incrementMultiplier() {
 	if (money >= 20) {
 		money = money - 20;
