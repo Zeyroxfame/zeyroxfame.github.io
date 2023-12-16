@@ -30,7 +30,7 @@ if (confirm("Activate debug mode?")) {
 	//resetButton
 	const resetButton = document.createElement("button");
 	const resetText = document.createTextNode("Reset");
-	resetButtion.id = "reset";
+	resetButton.id = "reset";
 	resetButton.appendChild(resetText);
 	document.getElementById("debug").appendChild(resetButton);
 	document.getElementById("reset").addEventListener("click", debugReset);
@@ -49,7 +49,7 @@ function debugReset() {
 money = 0;
 const moneyVisual = `${money}\$`;
 document.getElementById("money").innerHTML = moneyVisual;
-		
+}		
 function incrementMultiplier() {
 	if (money >= 20) {
 		money = money - 20;
