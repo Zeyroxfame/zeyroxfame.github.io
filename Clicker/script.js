@@ -16,8 +16,8 @@ function add1() {
 }
 
 
-
-function debug() { //DEBUGGING STUFF
+//DEBUGGING STUFF
+function debug() { 
 if (confirm("Activate debug mode?")) {
 	//moneyButton
 	const moneyButton = document.createElement("button");
@@ -49,8 +49,7 @@ function debugReset() {
 money = 0;
 const moneyVisual = `${money}\$`;
 document.getElementById("money").innerHTML = moneyVisual;
-	
-function	
+		
 function incrementMultiplier() {
 	if (money >= 20) {
 		money = money - 20;
