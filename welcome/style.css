@@ -28,3 +28,7 @@ a:hover {
 a:visited {
 	color: #fca9f3;
 }
+
+th {
+    color:mediumblue
+}
