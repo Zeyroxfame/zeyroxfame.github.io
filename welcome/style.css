@@ -10,7 +10,7 @@ table, tr, td {
     border: 1px solid ;
 }
 body {
-    background-color: black;
+    background-color: #212121;
 }
 
 p, li, ol,ul, td, table, aside, th, tr, td, h1, h2, h3, h4, h5, h6{
@@ -30,5 +30,5 @@ a:visited {
 }
 
 th {
-    color:mediumblue
+    color: lightskyblue
 }
