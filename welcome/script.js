@@ -1,6 +1,6 @@
 function RandomNumber() {
     let randomNumber;
+    randomNumber = 2;
     const randomNumberVisual = `Your random number is ${randomNumber}`;
-    randomNumber = Math.random();
     document.getElementById("output").innerHTML = randomNumberVisual;
 }
