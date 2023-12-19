@@ -1,5 +1,6 @@
 function randomNumber {
-    let abc;
-    abc = Math.random();
-    document.getElementById("output").innerHTML = abc;
+    const randomNumber;
+    const randomNumberVisual = `Your random number is ${randomNumber}`;
+    randomNumber = Math.random();
+    document.getElementById("output").innerHTML = randomNumberVisual;
 }
