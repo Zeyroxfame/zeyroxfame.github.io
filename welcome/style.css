@@ -13,7 +13,7 @@ body {
     background-color: #212121;
 }
 
-p, li, ol,ul, td, table, aside, th, tr, td, h1, h2, h3, h4, h5, h6{
+li, ol, table, th, tr, td, ul, aside, h1, h2, h3, h4, h5, h6{
     color: white;
 }
 
@@ -33,6 +33,7 @@ th {
     color: lightskyblue
 }
 
-.gcse-search {
+table, td, tr, th.gcse-search{
     color: black;
 }
+
