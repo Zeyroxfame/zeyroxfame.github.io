@@ -22,7 +22,8 @@ if (confirm("Activate debug mode?")) {
 	
 
         //DeleteDebug
-        document.getElementById("debugMode").innerHTML = "";
+        const deleteDebug = document.getElementById("debugMode");
+        deleteDebug.remove();
 
         //moneyButton
 	const moneyButton = document.createElement("button");
