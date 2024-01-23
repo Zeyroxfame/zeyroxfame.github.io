@@ -19,7 +19,12 @@ function add1() {
 //DEBUGGING STUFF
 function debug() { 
 if (confirm("Activate debug mode?")) {
-	//moneyButton
+	
+
+        //DeleteDebug
+        document.getElementById("debugMode").innerHTML = "";
+
+        //moneyButton
 	const moneyButton = document.createElement("button");
 	const moneyText = document.createTextNode("+100000$");
 	moneyButton.id = "+money";
