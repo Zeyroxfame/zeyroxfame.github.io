@@ -27,7 +27,7 @@ if (confirm("Activate debug mode?")) {
 
         //moneyButton
 	const moneyButton = document.createElement("button");
-	const moneyText = document.createTextNode("+100000$");
+	const moneyText = document.createTextNode("+9999999$");
 	moneyButton.id = "+money";
 	moneyButton.appendChild(moneyText);
 	document.getElementById("debug").appendChild(moneyButton);
@@ -67,8 +67,10 @@ function incrementMultiplier() {
 		document.getElementById("multiplier").innerHTML = multiplierVisual;
 		document.getElementById("money").innerHTML = moneyVisual;
 	}
-	else {document.getElementById("notEnough").innerHTML = "Not enough money."}
-}
+	else {document.getElementById("notEnough").innerHTML = "Not enough money."};
+        setTimeout(notEnoughRemove, 5000);
+        const notEnoughRemove = getElementById("notEnough").innerHTML = "";
+}   
 function incrementBase() {
     if (money >= 100) {
 	    money = money - 100;
