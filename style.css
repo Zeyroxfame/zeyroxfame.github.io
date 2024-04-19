@@ -1,41 +1,20 @@
-body {
-	background-color: #000000;
-}
-
-p, h1, h2, h3, h4, h5, h6, ul, li, ol, footer {
-	color: white;
-	
-}
-
-.nobullet {
-	list-style: none;
-}
-
-a {
-	color: #53d4f5;
-}
-
-a:hover {
-	text-decoration: none;
-}
-
-a:visited {
-	color: #fca9f3;
-}
-
-.centered {
+.center {
 	text-align: center;
 }
 
-.nopadding {
-padding: 0;
-text-decoration: none;
+.mainContainer {
+	display: flex;
 }
 
-.main-container {
-  width: 100%;
-  display:flex;
-  flex-direction: row;
-  flex: auto 0;
-  justify-content: space-between;
-}	
+.left {
+	flex: 2 1 0;
+}
+
+.right{
+	flex: 1 1 0;
+	border: solid 2px black;
+}
+
+
+
+
