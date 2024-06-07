@@ -10,9 +10,15 @@
 	flex: 4 1 0;
 }
 
-.right{
-	flex: 1 10 0;
-	border: solid 2px black;
+
+
+.mainContainer{
+	padding: 20px;
+	border: solid 5px black;
+	background-color: #FFCDD2;
+}
+body{
+	background-color: #CE93D8
 }
 
 
