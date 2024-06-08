@@ -4,21 +4,31 @@
 
 .mainContainer {
 	display: flex;
-}
-
-.left {
-	flex: 4 1 0;
-}
-
-
-
-.mainContainer{
 	padding: 20px;
 	border: solid 5px black;
 	background-color: #FFCDD2;
 }
+
+.left {
+	flex: 1 1 0;
+}
+
 body{
-	background-color: #CE93D8
+	background-color: #CE93D8;
+}
+
+.nyanSide{
+	flex: 1 1 1;
+
+}
+
+.flex {
+	display: flex;
+}
+
+.container {
+	display: flex;
+	height: 30px;
 }
 
 
