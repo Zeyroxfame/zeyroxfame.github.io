@@ -1,4 +1,4 @@
-.center {
+.centeredText {
 	text-align: center;
 }
 
@@ -9,8 +9,31 @@
 	background-color: #FFCDD2;
 }
 
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left2 {
+	flex: 1 1 auto;
+	text-align: left;
+}
+
+
 .left {
-	flex: 1 1 0;
+	flex: 1 1 auto;
+	text-align: left;
+	/*border: solid 2px;*/
+}
+.right {
+	flex: 1 1 auto;
+	text-align: right;
+	/*border: solid 2px;*/
+}
+.center {
+    flex: 6 0 auto;
+	text-align: center;
+	border: solid 2px;	
 }
 
 body{
@@ -19,11 +42,8 @@ body{
 
 .nyanSide{
 	flex: 1 1 1;
+	
 
-}
-
-.flex {
-	display: flex;
 }
 
 .container {
